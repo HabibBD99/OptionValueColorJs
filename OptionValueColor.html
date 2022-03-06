@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Habib</title>
+
+
+<style type="text/css">
+.Body{
+
+background-color:grey;
+transition:0.5s;
+
+ }
+
+</style>
+
+</head>
+
+<body class="Body">
+
+
+<select onchange="Hb(this.value)">
+<option value="green">Green</option>
+<option value="red">Red</option>
+<option value="purple">Purple</option>
+<option value="blue">Blue</option>
+<option value="orange">Orange</option>
+<option value="yellow">Yellow</option>
+
+</select>
+
+
+<script>
+
+function Hb(value){
+
+
+ var Color = document.querySelector(".Body");
+      Color.style.backgroundColor= value;
+  }
+  
+  
+</script>
+
+
+
+</body>
+</html>
